@@ -1,11 +1,12 @@
-Example project on how to setup a STM32 Microcontroller with USB port to run the BleuIO dongle with the STM32 as a USB CDC Host.
+Example project on how to setup a STM32 Microcontroller with USB port to run the BleuIO dongle with the STM32 as a USB CDC Host and control LCD display connected to it.
 
 # 1. What you will need
 
-- A BleuIO dongle (https://www.bleuio.com/)
+- Two BleuIO dongle (https://www.bleuio.com/)
 - A board with a STM32 Microcontroller with a USB port. (A Nucleo-144 development board: NUCLEO-H743ZI2, was used developing this example. (https://www.st.com/en/evaluation-tools/nucleo-h743zi.html)<br>
   To connect the dongle to the Nucleo board we used a "USB A to Micro USB B"-cable with a USB A female-to-female adapter.)
 - STM32CubeIDE (https://www.st.com/en/development-tools/stm32cubeide.html)
+- Liquid Crystal Display Module – NHD-0420D3Z-NSW-BBW-V3 (https://www.newhavendisplay.com/nhd0420d3znswbbwv3-p-5745.html)
 
 # 2. How to setup project
 
